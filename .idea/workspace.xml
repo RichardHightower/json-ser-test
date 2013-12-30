@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0077fc8f-bc30-4eb7-ac2d-26614900a5ad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/org/bura/jsonser/BoonJavaSerializerImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/bura/jsonser/DataSerializer.java" afterPath="$PROJECT_DIR$/src/main/java/org/bura/jsonser/DataSerializer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/bura/jsonser/Test.java" afterPath="$PROJECT_DIR$/src/main/java/org/bura/jsonser/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
     </list>
     <ignored path="json-ser-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -116,7 +112,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="43" selection-start="429" selection-end="429" vertical-scroll-proportion="0.06962025" vertical-offset="220" max-vertical-offset="1584">
+            <state line="15" column="47" selection-start="482" selection-end="482" vertical-scroll-proportion="0.12974684" vertical-offset="248" max-vertical-offset="1606">
               <folding />
             </state>
           </provider>
@@ -612,12 +608,12 @@
       <changelist id="0077fc8f-bc30-4eb7-ac2d-26614900a5ad" name="Default" comment="" />
       <created>1388361498917</created>
       <updated>1388361498917</updated>
-      <workItem from="1388361502887" duration="4370000" />
+      <workItem from="1388361502887" duration="4708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4370000" />
+    <option name="totallyTimeSpent" value="4708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1174" extended-state="6" />
@@ -644,7 +640,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960597" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32994455" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32994455" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -726,7 +722,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="43" selection-start="429" selection-end="429" vertical-scroll-proportion="0.06962025" vertical-offset="220" max-vertical-offset="1584">
+        <state line="15" column="47" selection-start="482" selection-end="482" vertical-scroll-proportion="0.12974684" vertical-offset="248" max-vertical-offset="1606">
           <folding />
         </state>
       </provider>

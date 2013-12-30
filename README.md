@@ -13,13 +13,7 @@ Participants:
 Return a String not a CharSequence
 ```
 
-Benchmark                                            Mode Thr     Count  Sec         Mean   Mean error    Units
-Test.complexTestJackson                       thrpt   1         5    1    13129.467     2260.256    ops/s
-Test.complextTestBoon                         thrpt   1         5    1     7309.860      250.486    ops/s
-Test.complexTestGson                          thrpt   1         5    1     5514.013     1778.128    ops/s
-Test.complexTestGroovyJava                    thrpt   1         5    1     2408.420     1713.882    ops/s
-Test.complexTestGroovyJavaWithoutRecursion    thrpt   1         5    1     2207.643     1521.711    ops/s
-Test.complexTestGroovy                        thrpt   1         5    1      949.057      468.135    ops/s
+Benchmark                                      Mode Thr     Count  Sec         Mean   Mean error    Units
 
 
 Test.mediumTestBoon                           thrpt   1         5    1   268972.367    19893.298    ops/s
@@ -35,6 +29,13 @@ Test.simpleTestGson                           thrpt   1         5    1   387067.
 Test.simpleTestGroovyJava                     thrpt   1         5    1    68075.113    44150.799    ops/s
 Test.simpleTestGroovy                         thrpt   1         5    1    60132.500    21514.814    ops/s
 Test.simpleTestGroovyJavaWithoutRecursion     thrpt   1         5    1    48145.780    29871.625    ops/s
+
+Test.complexTestJackson                       thrpt   1         5    1    13129.467     2260.256    ops/s
+Test.complextTestBoon                         thrpt   1         5    1     7309.860      250.486    ops/s
+Test.complexTestGson                          thrpt   1         5    1     5514.013     1778.128    ops/s
+Test.complexTestGroovyJava                    thrpt   1         5    1     2408.420     1713.882    ops/s
+Test.complexTestGroovyJavaWithoutRecursion    thrpt   1         5    1     2207.643     1521.711    ops/s
+Test.complexTestGroovy                        thrpt   1         5    1      949.057      468.135    ops/s
 
 ```
 
