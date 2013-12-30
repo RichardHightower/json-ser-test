@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: boon-0.4-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/boon/boon/0.4-SNAPSHOT/boon-0.4-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/boon/boon/0.4-SNAPSHOT/boon-0.4-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

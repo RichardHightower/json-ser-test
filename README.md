@@ -10,6 +10,34 @@ Participants:
 * Boon
 
 
+After optimizing:
+
+```
+Benchmark                                            Mode Thr     Count  Sec         Mean   Mean error    Units
+o.b.j.Test.complextTestBoon                         thrpt   1         3    1    12850.483     1345.387    ops/s
+o.b.j.Test.complexTestJackson                       thrpt   1         3    1    13781.272     7161.822    ops/s
+o.b.j.Test.complexTestGson                          thrpt   1         3    1     4886.206     3595.026    ops/s
+o.b.j.Test.complexTestGroovyJava                    thrpt   1         3    1     1781.678     2976.582    ops/s
+o.b.j.Test.complexTestGroovyJavaWithoutRecursion    thrpt   1         3    1     1617.833     3463.947    ops/s
+o.b.j.Test.complexTestGroovy                        thrpt   1         3    1      767.856     1757.046    ops/s
+
+o.b.j.Test.mediumTestBoon                           thrpt   1         3    1   356354.356    92409.796    ops/s
+o.b.j.Test.mediumTestJackson                        thrpt   1         3    1   134202.128   163113.418    ops/s
+o.b.j.Test.mediumTestGson                           thrpt   1         3    1    75637.267   106000.320    ops/s
+o.b.j.Test.mediumTestGroovyJava                     thrpt   1         3    1    51183.611    76084.378    ops/s
+o.b.j.Test.mediumTestGroovyJavaWithoutRecursion     thrpt   1         3    1    37264.683    52765.834    ops/s
+o.b.j.Test.mediumTestGroovy                         thrpt   1         3    1     9596.406    32524.504    ops/s
+
+o.b.j.Test.simpleTestBoon                           thrpt   1         3    1  1592641.094   260806.215    ops/s
+o.b.j.Test.simpleTestJackson                        thrpt   1         3    1   407893.461   651678.343    ops/s
+o.b.j.Test.simpleTestGson                           thrpt   1         3    1   309175.322   422653.544    ops/s
+o.b.j.Test.simpleTestGroovy                         thrpt   1         3    1    53658.911    70480.130    ops/s
+o.b.j.Test.simpleTestGroovyJava                     thrpt   1         3    1    50355.022    91832.904    ops/s
+o.b.j.Test.simpleTestGroovyJavaWithoutRecursion     thrpt   1         3    1    37634.989    65995.555    ops/s
+
+```
+
+
 Return a String not a CharSequence
 ```
 
