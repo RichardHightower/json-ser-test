@@ -10,6 +10,45 @@ Participants:
 * Boon
 
 
+
+After some more optimizing:
+Call it a character flaw.
+I did not like that Jackson was beating boon in 1 out of 3 serialization tests.
+I kept fiddling with the JSON encoder/decoder.
+Boon now wins 3 out of 3. :)
+Boon is now 25% faster in each category as well.
+
+Boon is 25% faster in the complex case than Jackson.
+Boon is 3x faster in the medium case than Jackson.
+Boon is 4x faster in the simple case than Jackson.
+
+I also learned a few tricks to boot.
+I can apply these to the AsciiJsonParser direct bytes and the UTF8JsonParser direct bytes.
+
+```
+Benchmark                                            Mode Thr     Count  Sec         Mean   Mean error    Units
+o.b.j.Test.complextTestBoon                         thrpt   1        10    1    21734.078      115.574    ops/s
+o.b.j.Test.complexTestJackson                       thrpt   1        10    1    15092.870      368.068    ops/s
+o.b.j.Test.complexTestGson                          thrpt   1        10    1     5718.963      320.241    ops/s
+o.b.j.Test.complexTestGroovyJava                    thrpt   1        10    1     2823.560      364.142    ops/s
+o.b.j.Test.complexTestGroovyJavaWithoutRecursion    thrpt   1        10    1     2589.552      309.729    ops/s
+o.b.j.Test.complexTestGroovy                        thrpt   1        10    1     1122.505       85.161    ops/s
+
+o.b.j.Test.mediumTestBoon                           thrpt   1        10    1   421488.738     8415.684    ops/s
+o.b.j.Test.mediumTestJackson                        thrpt   1        10    1   168061.268    10236.226    ops/s
+o.b.j.Test.mediumTestGson                           thrpt   1        10    1   104757.528     9493.220    ops/s
+o.b.j.Test.mediumTestGroovyJava                     thrpt   1        10    1    74889.933     7712.770    ops/s
+o.b.j.Test.mediumTestGroovyJavaWithoutRecursion     thrpt   1        10    1    54105.082     6270.119    ops/s
+o.b.j.Test.mediumTestGroovy                         thrpt   1        10    1    12367.388      396.494    ops/s
+
+o.b.j.Test.simpleTestBoon                           thrpt   1        10    1  2054070.788    29584.895    ops/s
+o.b.j.Test.simpleTestJackson                        thrpt   1        10    1   556984.738    41486.700    ops/s
+o.b.j.Test.simpleTestGson                           thrpt   1        10    1   425818.787    37444.851    ops/s
+o.b.j.Test.simpleTestGroovyJava                     thrpt   1        10    1    74368.882     7621.605    ops/s
+o.b.j.Test.simpleTestGroovy                         thrpt   1        10    1    63818.013     2206.431    ops/s
+o.b.j.Test.simpleTestGroovyJavaWithoutRecursion     thrpt   1        10    1    55362.543     6400.461    ops/s
+```
+
 After optimizing:
 
 ```
