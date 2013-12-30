@@ -7,6 +7,36 @@ Participants:
 * [Gson](https://code.google.com/p/google-gson/)
 * GroovyJava (JsonOutput rewritten to Java)
 * GroovyJavaWithoutRecursion (JsonOutput rewritten to Java without recursion)
+* Boon
+
+
+Return a String not a CharSequence
+```
+
+Benchmark                                            Mode Thr     Count  Sec         Mean   Mean error    Units
+Test.complexTestJackson                       thrpt   1         5    1    13129.467     2260.256    ops/s
+Test.complextTestBoon                         thrpt   1         5    1     7309.860      250.486    ops/s
+Test.complexTestGson                          thrpt   1         5    1     5514.013     1778.128    ops/s
+Test.complexTestGroovyJava                    thrpt   1         5    1     2408.420     1713.882    ops/s
+Test.complexTestGroovyJavaWithoutRecursion    thrpt   1         5    1     2207.643     1521.711    ops/s
+Test.complexTestGroovy                        thrpt   1         5    1      949.057      468.135    ops/s
+
+
+Test.mediumTestBoon                           thrpt   1         5    1   268972.367    19893.298    ops/s
+Test.mediumTestJackson                        thrpt   1         5    1   172173.310    79104.897    ops/s
+Test.mediumTestGson                           thrpt   1         5    1    96153.873    48267.235    ops/s
+Test.mediumTestGroovyJava                     thrpt   1         5    1    67499.537    46362.218    ops/s
+Test.mediumTestGroovyJavaWithoutRecursion     thrpt   1         5    1    47740.303    29863.004    ops/s
+Test.mediumTestGroovy                         thrpt   1         5    1    11157.990     3892.818    ops/s
+
+Test.simpleTestBoon                           thrpt   1         5    1  1195900.870    28042.073    ops/s
+Test.simpleTestJackson                        thrpt   1         5    1   557650.770   250583.057    ops/s
+Test.simpleTestGson                           thrpt   1         5    1   387067.607   216498.842    ops/s
+Test.simpleTestGroovyJava                     thrpt   1         5    1    68075.113    44150.799    ops/s
+Test.simpleTestGroovy                         thrpt   1         5    1    60132.500    21514.814    ops/s
+Test.simpleTestGroovyJavaWithoutRecursion     thrpt   1         5    1    48145.780    29871.625    ops/s
+
+```
 
 Results
 ---

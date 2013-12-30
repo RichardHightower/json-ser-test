@@ -14,19 +14,34 @@ import org.openjdk.jmh.annotations.GenerateMicroBenchmark;
 import org.openjdk.jmh.annotations.Mode;
 import org.openjdk.jmh.annotations.OutputTimeUnit;
 
+import static org.boon.Boon.puts;
+
 @BenchmarkMode(Mode.Throughput)
 @OutputTimeUnit(TimeUnit.SECONDS)
 public class Test {
 
+    private static final BoonJavaSerializerImpl boonSerializer = new BoonJavaSerializerImpl ();
     private static final GroovySerializerImpl groovySer = new GroovySerializerImpl();
     private static final JacksonSerializerImpl jacksonSer = new JacksonSerializerImpl();
     private static final GsonSerializerImpl gsonSer = new GsonSerializerImpl();
     private static final GroovyJavaSerializerImpl groovyJavaSer = new GroovyJavaSerializerImpl();
     private static final GroovyJavaWithoutRecursionSerializerImpl groovyJavaSer2 = new GroovyJavaWithoutRecursionSerializerImpl();
 
+
+    public static void main (String... args) {
+       System.out.println ( boonSerializer.serialize ( SIMPLE_DATA ) );
+        System.out.println ( boonSerializer.serialize ( COMPLEX_DATA ) );
+        System.out.println ( boonSerializer.serialize ( MEDIUM_DATA ) );
+
+    }
     @GenerateMicroBenchmark
     public void simpleTestGroovy() {
         simpleTest(groovySer);
+    }
+
+    @GenerateMicroBenchmark
+    public void simpleTestBoon() {
+        simpleTest(boonSerializer);
     }
 
     @GenerateMicroBenchmark
@@ -52,6 +67,11 @@ public class Test {
     @GenerateMicroBenchmark
     public void mediumTestGroovy() {
         mediumTest(groovySer);
+    }
+
+    @GenerateMicroBenchmark
+    public void mediumTestBoon() {
+        mediumTest(boonSerializer);
     }
 
     @GenerateMicroBenchmark
@@ -83,6 +103,12 @@ public class Test {
     public void complexTestJackson() {
         complexTest(jacksonSer);
     }
+
+    @GenerateMicroBenchmark
+    public void complextTestBoon() {
+        complexTest ( boonSerializer );
+    }
+
 
     @GenerateMicroBenchmark
     public void complexTestGson() {
