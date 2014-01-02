@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0077fc8f-bc30-4eb7-ac2d-26614900a5ad" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/org/bura/jsonser/BoonJavaSerializerImpl.java" afterPath="$PROJECT_DIR$/src/main/java/org/bura/jsonser/BoonJavaSerializerImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="json-ser-test.iws" />
@@ -79,8 +79,10 @@
       <file leaf-file-name="BoonJavaSerializerImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/bura/jsonser/BoonJavaSerializerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="51" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="506">
-              <folding />
+            <state line="10" column="78" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,6 +116,9 @@
       </file>
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state line="26" column="0" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="3080">
               <folding />
@@ -328,8 +333,8 @@
         <option value="$PROJECT_DIR$/src/main/java/org/bura/jsonser/DataSerializer.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/org/bura/jsonser/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/bura/jsonser/BoonJavaSerializerImpl.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/org/bura/jsonser/BoonJavaSerializerImpl.java" />
       </list>
     </option>
   </component>
@@ -410,8 +415,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -497,6 +502,19 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -523,19 +541,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -614,16 +619,17 @@
       <updated>1388361498917</updated>
       <workItem from="1388361502887" duration="5052000" />
       <workItem from="1388369669452" duration="5033000" />
-      <workItem from="1388386297512" duration="147000" />
+      <workItem from="1388386297512" duration="263000" />
+      <workItem from="1388662287401" duration="276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10232000" />
+    <option name="totallyTimeSpent" value="10624000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1920" height="1174" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -644,7 +650,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32994455" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
     </layout>
@@ -680,7 +686,77 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/bura/jsonser/BoonJavaSerializerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="51" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="506">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="26" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="1078">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bura/jsonser/MyJsonOutput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="101" selection-start="1647" selection-end="1647" vertical-scroll-proportion="0.0" vertical-offset="726" max-vertical-offset="10516">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy-all/2.2.1/5d4c06bea2b086d18d19d1f2a3e8f18acbfe0e9e/groovy-all-2.2.1-sources.jar!/groovy/json/StringEscapeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="219" column="36" selection-start="8195" selection-end="8195" vertical-scroll-proportion="0.0" vertical-offset="4818" max-vertical-offset="9372">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="3080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bura/jsonser/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="32" selection-start="2979" selection-end="2995" vertical-scroll-proportion="0.0" vertical-offset="2354" max-vertical-offset="10582">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bura/jsonser/DataSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="17" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="22" max-vertical-offset="264">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bura/jsonser/JacksonSerializerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="13" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="220" max-vertical-offset="902">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bura/jsonser/GroovyJavaSerializerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="40" selection-end="40" vertical-scroll-proportion="0.0" vertical-offset="44" max-vertical-offset="352">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bura/jsonser/BoonJavaSerializerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="51" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="506">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -743,7 +819,9 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/bura/jsonser/BoonJavaSerializerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="51" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="506">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -831,13 +909,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/bura/jsonser/BoonJavaSerializerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="51" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/bura/jsonser/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="107" column="32" selection-start="2979" selection-end="2995" vertical-scroll-proportion="0.0" vertical-offset="1386" max-vertical-offset="10274">
@@ -845,7 +916,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/bura/jsonser/BoonJavaSerializerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="78" selection-start="292" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="506">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
